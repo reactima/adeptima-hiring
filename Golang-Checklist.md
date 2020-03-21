@@ -47,6 +47,7 @@ Here’s that we discuss during the interview.
 * https://github.com/ardanlabs/gotraining/blob/master/topics/go/README.md#design-guidelines
 * http://sijinjoseph.com/programmer-competency-matrix/
 * RFD 106 Engineering Guide - Go Best Practices https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc
+* !!!! Security https://github.com/guardrailsio/awesome-golang-security 
 
 
 #### Community Leaders & Trend-setter
