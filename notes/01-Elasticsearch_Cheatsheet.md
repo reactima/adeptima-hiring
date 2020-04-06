@@ -16,22 +16,6 @@
 - Document: a basic unit of information. Like record in SQL.
 - Shards: It allows us to horizontally split a big index, and store in multiple nodes.
 
-## Getting started
-Elastic Dokku/Docker Image 5.3
-- https://github.com/reactima/elasticsearch
-
-Kibana Dokku/Docker Image 5.3
-- https://github.com/reactima/elasticsearch
-
-elasticsearch-head
-- https://github.com/mobz/elasticsearch-head
-
-Good tutorials to get started
-- Querying ElasticSearch - A Tutorial and Guide, http://okfnlabs.org/blog/2013/07/01/elasticsearch-query-tutorial.html
-- ElasticSearch 101 a getting started tutorial, http://joelabrahamsson.com/elasticsearch-101/
-- http://bitquabit.com/post/having-fun-python-and-elasticsearch-part-1/
-
-
 ## Make sure it works
 
 ```json

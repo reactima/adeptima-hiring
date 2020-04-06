@@ -1,4 +1,3 @@
-
 ## Golang Developer Check List
 Here’s that we discuss during the interview.
 
@@ -33,13 +32,8 @@ Here’s that we discuss during the interview.
 - How would you handle security in Go?
     * Check [Top 10 2017-Top 10 - OWASP](https://www.owasp.org/index.php/Top_10_2017-Top_10) if not sure
 - Who is the most impressive person in Go community?
-    * Rob Pike Twitter: [@rob_pike](https://twitter.com/rob_pike) [github.com/robpike](https://github.com/robpike)
-    * Russ Cox Twitter: [@_rsc](https://twitter.com/_rsc) [github.com/rsc](https://github.com/rsc)
-    * Dave Cheney Blog: dave.cheney.net [@davecheney](https://twitter.comdavecheney) [github.com/davecheney](https://github.com/davecheney)
-    * [Подкаст GolangShow](https://golangshow.com/)
-    * https://golangnews.com
-    
 
+   
 ### Unsorted
 * https://github.com/quii/learn-go-with-tests
 * https://github.com/hoanhan101/ultimate-go
@@ -49,43 +43,19 @@ Here’s that we discuss during the interview.
 * RFD 106 Engineering Guide - Go Best Practices https://github.com/joyent/rfd/blob/master/rfd/0106/README.adoc
 * !!!! Security https://github.com/guardrailsio/awesome-golang-security 
 
+#### People
+* Rob Pike Twitter: [@rob_pike](https://twitter.com/rob_pike) [github.com/robpike](https://github.com/robpike)
+* Russ Cox Twitter: [@_rsc](https://twitter.com/_rsc) [github.com/rsc](https://github.com/rsc)
+* Dave Cheney Blog: https://dave.cheney.net/ [@davecheney](https://twitter.comdavecheney) [github.com/davecheney](https://github.com/davecheney)
+* [Подкаст GolangShow](https://golangshow.com/)
+* https://golangnews.com
 
-#### Community Leaders & Trend-setter
-- https://www.ardanlabs.com/ << copy business approach?
-- https://dave.cheney.net/  <<< steal topics?
-- https://blog.golang.org/ <<< know all?
+#### Communities
+- https://blog.golang.org/ 
+- https://www.ardanlabs.com/ 
 - https://golangweekly.com/issues
 - https://golangnews.com/
 - https://github.com/trending/go?since=monthly
 - https://www.reddit.com/r/golang/
 - https://github.com/avelino/awesome-go
 
-### Go-micro
-We are considering to use Go Micro to abstract away the details of distributed systems. Here are the main features:
-
--   **Service Discovery**  - Automatic service registration and name resolution
--   **Load Balancing**  - Client side load balancing built on discovery
--   **Message Encoding**  - Dynamic encoding based on content-type with protobuf and json support
--   **Sync Streaming**  - RPC based communication with support for bidirectional streaming
--   **Async Messaging**  - Native PubSub messaging built in for event driven architectures
-
-Go Micro supports both the Service and Function programming models. Read on to learn more.
-
-#### Go-micro Enterprise
--   secure by default: tls enabled
--   authentication: rbac and service-to-service
--   central control plane
--   circuit breaking
--   rate limiting
--   distributed tracing
--   intelligent routing
--   metric instrumentation
--   performance tuned
--   config reloading
--   dynamic plugin loading
-
-#### Go-micro Links
--   https://github.com/micro/go-micro
--   https://github.com/micro/enterprise
--   https://micro.mu/pricing/
--   https://backy.io/features/

@@ -7,19 +7,17 @@ Supposed to be discussed before applying ...
 * All the UI should be built mobile first
 * Use SVG instead of png or jpg whenever possible
 * Use SASS for building CSS http://sass-lang.com/guide
-Review UI kits styles before adding new ones
+  - Review UI kits styles before adding new ones
 
 ## Reactjs / Redux
 * Know your components. Read the entire source code
 * Minimize external dependences
-* Fail gracefully. No PropTypes. Components should be resistant to various props scenarios
+* Fail gracefully. Components should be resistant to various props scenarios
 * *Don’t understand, ask* Review Components with colleagues before refactoring
 
 ## Javascript code style and linter
-* ES6 only. Most of code will be used for the next 10+ years 
-* Use Airbnb style guide: https://github.com/airbnb/javascript
 * Use ESlint and [Prettier](https://github.com/prettier/prettier) for enforcing the style guide 
-* Use [CircleCI](https://circleci.com) for build process ( running lints and test units )
+* Use Gitlab CI for build process ( running lints and test units )
 * All lint issues should be resolved before code review
 
 ## Personal Staging
@@ -66,12 +64,4 @@ Other times, it means many commits for a PR.
 ## CI Ready
 Why? CI will run `yarn test` and `yarn lint` for your repo every time you push to GitHub and the results will be shown in the GitHub UI. It will help us maintain code quality and restrict us merging branches that fail tests.
 
-## Discussion Reading 
-* How “Controllable” React components maximize reusability https://medium.com/myheritage-engineering/how-controllable-react-components-maximize-reusability-86e3d233fa8e 
-
-* 7 architectural attributes of a reliable React component
-https://dmitripavlutin.com/7-architectural-attributes-of-a-reliable-react-component/ 
-
-* Overview of how React works https://github.com/reactjs/rfcs/issues/26#issuecomment-365744134 
-  * Brian Vaughn https://github.com/bvaughn
 

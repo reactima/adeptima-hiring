@@ -1,10 +1,6 @@
 # Git Flow (with rebasing)
 
-
 See http://nvie.com/posts/a-successful-git-branching-model/
-
-
-
 
 ## Features
 
