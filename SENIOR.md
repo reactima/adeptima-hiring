@@ -17,8 +17,7 @@ CODE >> BUILD >> TEST >> RELEASE >>> DEPLOY
 CODE >> BUILD >> TEST >> RELEASE >>> DEPLOY
 - CODE Git
 - CODE 3+ years of full-stack experience in Golang|Nodejs|Python with at least REST & WebSockets coding experience
-- CODE Reactjs + 2nd! option Vuejs
-- CODE ES6+
+- CODE Reactjs
 - CODE Typescript, Flow and static typing capabilities and other non-standard JavaScript features
 - CODE SASS, Flexbox, CSS3+
 
@@ -29,7 +28,6 @@ https://docs.google.com/document/d/1sY5InmugcuGnhFDK2tsZRHBYPFJP6cjWmdIftB5EGOM/
 
 ####  Adeptima Golang Test Assignment
 https://docs.google.com/document/d/1THmoEl837mnMhMvzk4270zWigRVVuMsVq0WBfJSGunU/edit
-
 
 ### Senior Golang Dev, Outsourcing
 PLAN >> CODE >> BUILD >> TEST >> RELEASE >>> DEPLOY (AWS or K8S, GCP) >> OPERATE >> MONITOR
@@ -81,7 +79,7 @@ PLAN >> CODE >> BUILD >> TEST >> RELEASE >>> DEPLOY (AWS or K8S, GCP) >> OPERATE
 - Penetration testing, security audits
 
 ### SEE
-* [GIT.md](GIT.md)
+* [GIT.md](notes/08-GIT.md)
 * [Golang_Check_List.md](Golang_Check_List.md)
 
 #### Vendors & Projects

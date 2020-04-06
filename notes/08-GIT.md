@@ -1,12 +1,10 @@
 # Git Flow (with rebasing)
-
 See http://nvie.com/posts/a-successful-git-branching-model/
 
 ## Features
 
 A feature is based off the `develop` branch and merged back into the `develop` branch.
 It will eventually get into `master` when we make a release.
-
 
 ### Working Locally
 
@@ -39,7 +37,6 @@ git fetch
 git rebase origin/develop
 git push --force-with-lease
 ````
-
 
 ### GitHub workflow
 
@@ -126,6 +123,43 @@ git push
 - Open a Pull Request against `develop` (may need to rebase first).
 - Tag a release on `master`. Describe the issue in the name, feel free to put details in the description.
 
+> ### Atomic Approach
+> 
+> - Commit each fix or task as a separate change
+> - Only commit when a block of work is complete
+> - Commit each layout change separately
+> - Joint commit for \[JSX and CSS changes\], and additional resources
+> 
+> ### Benefits
+> 
+> - Easy to roll back without affecting other changes
+> - Easy to make other changes on the fly
+> - Easy to merge features to other branches
+
+Then, each PR is a set of commits related to one change or task.
+Sometimes, this means a single commit per PR.
+Other times, it means many commits for a PR.
+
+
+
+## Github
+* Use Gitflow as a principle: http://nvie.com/posts/a-successful-git-branching-model/
+* Don't directly commit any code to develop or master branch
+* Open Pull Request to merge your code in develop branch
+* Code needs to get approval and build successfully in order for it to get merge 
+* The job is done only if the PR is merged
+
+
+## Making a pull request
+
+* *Branching out* before submitting a PR make sure that you're on a fresh branch that's named after the work that you're doing
+* *Committing your changes* with descriptive messages. 
+* *Test and lint* Run `yarn run test` to check for any linting or test errors and make sure they're all fixed. CI should catch these once you submit the PR, but it's good to catch them early.
+
+## CI Ready
+Why? CI will run `yarn test` and `yarn lint` for your repo every time you push to GitHub and the results will be shown in the GitHub UI. It will help us maintain code quality and restrict us merging branches that fail tests.
+
+
 ### Advanced Git
 - Pro Git: https://git-scm.com/book/en/v2
 - How to teach Git, Rachel M. Carmena https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html
@@ -134,35 +168,5 @@ git push
 - Welcome to Learn Git Branching ;) https://learngitbranching.js.org/
 - Git from the bottom up, John Wiegley http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
 
-## Submitting a patch in Go
-
-  1. It's generally best to start by opening a new issue describing the bug or
-     feature you're intending to fix.  Even if you think it's relatively minor,
-     it's helpful to know what people are working on.  Mention in the initial
-     issue that you are planning to work on that bug or feature so that it can
-     be assigned to you.
-
-  2. Follow the normal process of [forking][] the project, and setup a new
-     branch to work in.  It's important that each group of changes be done in
-     separate branches in order to ensure that a pull request only includes the
-     commits related to that bug or feature.
-
-  3. Go makes it very simple to ensure properly formatted code, so always run
-     `go fmt` on your code before committing it.
-
-  4. Any significant changes should almost always be accompanied by tests.  The
-     project already has good test coverage, so look at some of the existing
-     tests if you're unsure how to go about it.
-
-  5. Do your best to have [well-formed commit messages][] for each change.
-     This provides consistency throughout the project, and ensures that commit
-     messages are able to be formatted properly by various git tools.
-
-  6. Finally, push the commits to your fork and submit a [pull request][].
-
-[forking]: https://help.github.com/articles/fork-a-repo
-[well-formed commit messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[squash]: http://git-scm.com/book/en/Git-Tools-Rewriting-History#Squashing-Commits
-[pull request]: https://help.github.com/articles/creating-a-pull-request
 
 
