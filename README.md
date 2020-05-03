@@ -24,13 +24,13 @@ We are expecting commitment to deliver outstanding capacity and results that wou
 
 #adeptima/front-end
 
-#reactjs #redux #javascript #front
+#reactjs #hooks #jest #front
 
 # Junior Front-end Developer, Full-time
 We are building a world-class team of developers and expect everyone to become on the same page. Please apply only if you feel confident to acquire the following **"You will have"** skills in the next 6 month
 
 *You will have*
-* Solid understanding of React.js / Redux ecosystem and its tools Webpack, Babel, ESLint, etc
+* Solid understanding of React.js ecosystem and its tools Webpack, Jest, Cypress
 * Guru level of knowledge how to build a world-class UI / UX experience
 
 *Be ready to*
@@ -83,12 +83,12 @@ Go through [Golang Developer Check List](Golang_Check_List.md)
 We expect you to think, prototype, re-do, test, absorb feedback and start over and over again till you feel proud of the end-product. Most of your work will be used by other people for over 10+ years in production.
 
 Our current technology stack:
-* Front-end : Javascript (ES6 only) / React.js / Redux / D3
+* Front-end : Javascript / Typescript / Jest / Cypress / React.js / D3.js
 * Back-end : Node.js / Golang / Python
 * Databases : PostgreSQL
 * Security : ACL / JWT
-* DevOps: AWS / TerraForm
-* CI/CD: Drone.io
+* DevOps: AWS / Dokku / TerraForm / Prometheus / Grafana
+* CI/CD: CircleCI
 * Communications: Slack, Github ;)
 
 Feel free to contact https://t.me/reactima or ilya@adeptima.co.uk to introduce yourself. You will be asked for CV or Linkedin profile. Brief outline of applications you built recently will be a big plus.
